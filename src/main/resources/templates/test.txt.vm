@@ -1,0 +1,15 @@
+##单行注释
+#*
+多行注释
+*#
+
+## 变量用法打招呼
+#set($greet = 'Hello')
+#set($greetStr = "I say $greet $name")
+$greetStr
+
+#foreach($i in $list)
+    $i
+#end
+
+    today is $date
